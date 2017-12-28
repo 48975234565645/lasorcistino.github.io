@@ -107,8 +107,8 @@ nav div:active {
 	border: 2px solid white;
 	border-radius: 30px;
 	padding: 4%;
+	height: 28rem;
 	width: 13%;
-	min-height: 400px;
 	background-size: cover;
 	background-position: center;
 }

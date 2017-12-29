@@ -14,8 +14,13 @@ html, body {
 	display: flex;
   	flex-direction: column;
 /* ------------------------ */
-
 }
+
+
+
+
+
+
 
 #main {
 	
@@ -26,14 +31,18 @@ html, body {
 /* ---- BSTN LOGO ----*/
 #logo {
 	margin: auto;
-	margin-top: 5%;
 	border-radius: 30px;
 	padding: 4%;
+	margin-top: 5%;
 	height: 15rem;
 	width: 15rem;
-	background-image: url("resources/bstnlogo.png");
 	background-size: cover;
 	background-position: center;
+	font-size: 3.5em;
+	display: block;
+	text-align: center;
+	font-family: 'Anton', impact;
+	color: white;
 }
 /* ------------------------ */
 
@@ -133,19 +142,19 @@ nav .btnmain:active {
 
 
 #pic1 {
-	background-image: url("https://i.imgur.com/VIHO5fN.jpg")
+	background-image: url("resources/CEO.jpg");
 }
 
 #pic2 {
-	background-image: url("https://i.imgur.com/o4Tb09Z.jpg")
+	background-image: url("resources/RECRUITER.jpg");
 }
 
 #pic3 {
-	background-image: url("https://i.imgur.com/X3Cegus.jpg")
+	background-image: url("resources/ME.jpg");
 }
 
 #pic4 {
-	background-image: url("https://i.imgur.com/Vd5zyiF.jpg")
+	background-image: url("https://i.imgur.com/Vd5zyiF.jpg");
 }
 
 

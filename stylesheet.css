@@ -132,56 +132,43 @@ nav div:active {
 }
 
 
+
+
+
+
 .descriptioncontainer {
-	margin-top: 2%;
 	display: flex;
-	text-align: center;
-	height: 75px;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 100%;
+	margin-top: 2%;
 }
 
 .descriptionstaff {
 	background-color: white;
-	border: 4px solid white;
-	opacity: 0.7;
-	border-radius: 8px;
-	width: 20%;
-	height: 130px;
-	font-family: impact;
+	margin: auto;
+	border: 2px solid white;
+	border-radius: 30px;
+	height: 7rem;
+	width: 21%;
 	font-size: 3em;
+	font-family: 'Anton', impact;
+	text-align: center;
+	opacity: 0.7;
 }
 
 .descriptionstaff:hover {
 	background-color: white;
-	border: 4px solid white;
-	opacity: 0.7;
-	border-radius: 8px;
-	width: 20%;
-	height: 130px;
-	font-family: impact;
+	margin: auto;
+	border: 2px solid white;
+	border-radius: 30px;
+	height: 7rem;
+	width: 21%;
 	font-size: 3.1em;
+	font-family: 'Anton', impact;
+	text-align: center;
+	opacity: 0.7;
 }
-
-
-#descr1 {
-	position: relative;
-	left: 2.2%;
-}
-
-#descr2 {
-	position: relative;
-	left: 6.9%;
-}
-
-#descr3 {
-	position: relative;
-	left: 11.3%;
-}
-
-#descr4 {
-	position: relative;
-	left: 16%;
-}
-
 
 
 

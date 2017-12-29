@@ -127,6 +127,7 @@ nav .btnmain:active {
 	width: 13%;
 	background-size: cover;
 	background-position: center;
+	z-index: 2;
 }
 
 
@@ -171,6 +172,7 @@ nav .btnmain:active {
 	font-family: 'Anton', impact;
 	text-align: center;
 	opacity: 0.7;
+	z-index: 2;
 }
 
 .descriptionstaff:hover {
@@ -184,11 +186,21 @@ nav .btnmain:active {
 	font-family: 'Anton', impact;
 	text-align: center;
 	opacity: 0.7;
+	z-index: 2;
 }
 
 
 
-
+#whiteoverlay {
+	opacity: 1;
+    background-color: #ccc;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 4%;
+    left: 0px;
+    z-index: 1;
+}
 
 
 

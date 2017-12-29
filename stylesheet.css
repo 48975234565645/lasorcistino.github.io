@@ -48,27 +48,34 @@ html, body {
 	text-align: center;
 	text-shadow: 1.5px 1px black;
 	color: white;
-	margin-top: 10%;
+	margin-top: 6.5%;
 }
 /* ------------------------ */
 
 
 
 nav {
-	text-align: center;
-	margin-top: 9%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 100%;
+	margin-top: 10%;
 }
 
-nav div {
-	position: relative;
-	margin: 0.1%;
-	padding: 2.3%;
-	display: inline;
-	border-radius: 8px;
+
+	
+
+nav .btnmain {
 	background-color: white;
-	opacity: 0.85;
-	font-family: impact;
+	border: 2px solid white;
+	margin-left: 5px;
+	border-radius: 10px;
+	width: 12rem;
 	font-size: 2em;
+	font-family: 'Anton', impact;
+	text-align: center;
+	opacity: 0.75;
+	padding: 2rem;
 }
 
 nav a {
@@ -76,27 +83,31 @@ nav a {
 	color: purple;
 }
 
-nav div:hover {
-	position: relative;
-	margin: 0.1%;
-	padding: 2.31%;
-	display: inline;
-	border-radius: 8px;
+nav .btnmain:hover {
 	background-color: white;
-	opacity: 0.95;
-	font-family: impact;
+	border: 2px solid white;
+	margin-left: 5px;
+	border-radius: 10px;
+	width: 12rem;
+	font-size: 2em;
+	font-family: 'Anton', impact;
+	text-align: center;
+	opacity: 0.85;
+	padding: 2rem;
 }
 
-nav div:active {
-	position: relative;
-	margin: 0.1%;
-	padding: 2.3%;
-	display: inline;
-	border-radius: 8px;
+nav .btnmain:active {
 	background-color: white;
-	opacity: 1;
-	font-family: impact;
-	top: 1px;
+	border: 1px solid white;
+	margin-left: 5px;
+	border-radius: 10px;
+	width: 12rem;
+	font-size: 2em;
+	font-family: 'Anton', impact;
+	text-align: center;
+	opacity: 0.85;
+	padding: 2rem;
+	top: 1.5px;
 }
 
 .gallery {
@@ -174,7 +185,6 @@ nav div:active {
 	text-align: center;
 	opacity: 0.7;
 }
-
 
 
 

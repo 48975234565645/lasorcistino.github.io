@@ -219,7 +219,15 @@ nav .btnmain:active {
 }
 
 
-
+#signature2 {
+	color: black;
+	font-size: 1em;
+	font-family: Great Vibes, cursive;
+	opacity: 0.7;
+	position: absolute;
+	bottom: 0px;
+	z-index: 3;
+}
 
 
 

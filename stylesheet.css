@@ -72,9 +72,6 @@ nav {
 	margin-top: 10%;
 }
 
-
-	
-
 nav .btnmain {
 	background-color: white;
 	border: 2px solid white;
@@ -130,7 +127,6 @@ nav .btnmain:active {
 .picture {
 	margin: auto;
 	margin-top: 5%;
-	border: 2px solid white;
 	border-radius: 30px;
 	padding: 4%;
 	height: 28rem;
@@ -213,7 +209,14 @@ nav .btnmain:active {
 }
 
 
-
+#signature {
+	color: white;
+	font-size: 1em;
+	font-family: Great Vibes, cursive;
+	opacity: 0.7;
+	position: absolute;
+	bottom: 0px;
+}
 
 
 

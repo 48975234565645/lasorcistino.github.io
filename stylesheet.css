@@ -25,6 +25,7 @@ html, body {
 #main {
 	
 }
+		
 
 
 
@@ -35,16 +36,12 @@ html, body {
 	padding: 4%;
 	margin-top: 5%;
 	height: 15rem;
-	width: 15rem;
+	width: 18rem;
 	background-size: cover;
 	background-position: center;
-	font-size: 3.5em;
-	display: block;
-	text-align: center;
-	font-family: 'Anton', impact;
-	color: white;
-	text-shadow: 2.5px 1.5px black;
+	background-image: url("resources/title.png")
 }
+
 /* ------------------------ */
 
 

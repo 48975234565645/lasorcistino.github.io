@@ -1,0 +1,70 @@
+
+
+
+
+.mainbox {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #4d0000;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 3%;
+  width: 35%;
+  background-color: #000000;
+  opacity: 0.8;
+  min-width: 400px;
+}
+
+
+#headline {
+  font-size: 2.5rem;
+  font-family: 'Anton', impact;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+}
+
+#welcometitle {
+	font-size: 2em;
+	font-family: 'Great Vibes';
+}
+
+#corplogomain {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#SSOButton {
+  text-align: center;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10px;
+  width: 150px;
+  height: 35px;
+  margin: auto;
+  background-color: yellow;
+}
+
+html, body {
+  background-image: url("resources/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.mainbox p {
+  font-family: 'Oswald', Impact;
+  color: white;
+}
+
+#rednote {
+	margin-top: 5%;
+	margin-bottom: 1%;
+	font-size: 0.7em; 
+	color: red;
+	font-family: sans-serif;
+}

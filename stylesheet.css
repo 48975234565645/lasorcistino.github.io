@@ -35,11 +35,11 @@ html, body {
 	border-radius: 30px;
 	padding: 4%;
 	margin-top: 5%;
-	height: 15rem;
-	width: 18rem;
+	height: 16rem;
+	width: 20rem;
 	background-size: cover;
 	background-position: center;
-	background-image: url("resources/title.png")
+	background-image: url("resources/pentagramc.png")
 }
 
 /* ------------------------ */
@@ -71,7 +71,7 @@ nav {
 
 nav .btnmain {
 	background-color: white;
-	border: 2px solid white;
+	border: 0.2em solid white;
 	margin-left: 5px;
 	border-radius: 10px;
 	width: 12rem;
@@ -79,40 +79,44 @@ nav .btnmain {
 	font-family: 'Anton', impact;
 	text-align: center;
 	opacity: 0.75;
-	padding: 2rem;
+	padding: 1.5rem;
+	transition: opacity 0.3s;
+	transition: border 0.5s;
 }
+
+nav .btnmain:hover {
+	background-color: white;
+	border: 0.2em solid white;
+	margin-left: 5px;
+	border-radius: 10px;
+	width: 12rem;
+	font-size: 2em;
+	font-family: 'Anton', impact;
+	text-align: center;
+	opacity: 0.85;
+	padding: 1.5rem;
+}
+
+nav .btnmain:active {
+	background-color: white;
+	border: 0.2em solid white;
+	margin-left: 5px;
+	border-radius: 10px;
+	width: 12rem;
+	font-size: 2em;
+	font-family: 'Anton', impact;
+	text-align: center;
+	opacity: 0.85;
+	padding: 1.5rem;
+	top: 10px;
+}
+
 
 nav a {
 	text-decoration: none;
 	color: purple;
 }
 
-nav .btnmain:hover {
-	background-color: white;
-	border: 2px solid white;
-	margin-left: 5px;
-	border-radius: 10px;
-	width: 12rem;
-	font-size: 2em;
-	font-family: 'Anton', impact;
-	text-align: center;
-	opacity: 0.85;
-	padding: 2rem;
-}
-
-nav .btnmain:active {
-	background-color: white;
-	border: 1px solid white;
-	margin-left: 5px;
-	border-radius: 10px;
-	width: 12rem;
-	font-size: 2em;
-	font-family: 'Anton', impact;
-	text-align: center;
-	opacity: 0.85;
-	padding: 2rem;
-	top: 1.5px;
-}
 
 .gallery {
 	display: flex;
@@ -176,6 +180,7 @@ nav .btnmain:active {
 	text-align: center;
 	opacity: 0.7;
 	z-index: 2;
+	transition: font-size 0.2s;
 }
 
 .descriptionstaff:hover {

@@ -35,11 +35,11 @@ html, body {
 	border-radius: 30px;
 	padding: 4%;
 	margin-top: 5%;
-	height: 16rem;
-	width: 20rem;
+	height: 15rem;
+	width: 18rem;
 	background-size: cover;
 	background-position: center;
-	background-image: url("resources/pentagramc.png")
+	background-image: url("resources/pentagram.png")
 }
 
 /* ------------------------ */
@@ -79,7 +79,7 @@ nav .btnmain {
 	font-family: 'Anton', impact;
 	text-align: center;
 	opacity: 0.75;
-	padding: 1.5rem;
+	padding: 1rem;
 	transition: opacity 0.3s;
 	transition: border 0.5s;
 }
@@ -107,7 +107,7 @@ nav .btnmain:active {
 	font-family: 'Anton', impact;
 	text-align: center;
 	opacity: 0.85;
-	padding: 1.5rem;
+	padding: 1rem;
 	top: 10px;
 }
 
@@ -238,6 +238,14 @@ nav a {
 	background-color: white;
 	padding: 2%;
 	position: relative;
+}
+
+@media only screens and (max-width: 426px) {
+	#textbox {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
 }
 
 .introtitle {

@@ -6,7 +6,7 @@ html, body {
 
 /* background image */
 	background-color: black;
-	background-image: url("resources/bg1.jpg");
+	background-image: url("resources/bg2.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment:  fixed;
@@ -39,7 +39,8 @@ html, body {
 	width: 18rem;
 	background-size: cover;
 	background-position: center;
-	background-image: url("resources/pentagram.png")
+	background-image: url("resources/pentagramw.png");
+	opacity: 0.75;
 }
 
 /* ------------------------ */
@@ -94,13 +95,14 @@ nav .btnmain:hover {
 	font-family: 'Anton', impact;
 	text-align: center;
 	opacity: 0.85;
-	padding: 1.5rem;
+	padding: 1rem;
 }
 
 nav .btnmain:active {
 	background-color: white;
 	border: 0.2em solid white;
 	margin-left: 5px;
+	margin-top: 1px;
 	border-radius: 10px;
 	width: 12rem;
 	font-size: 2em;
@@ -108,7 +110,7 @@ nav .btnmain:active {
 	text-align: center;
 	opacity: 0.85;
 	padding: 1rem;
-	top: 10px;
+	top: 1px;
 }
 
 
@@ -238,15 +240,8 @@ nav a {
 	background-color: white;
 	padding: 2%;
 	position: relative;
-}
+}	
 
-@media only screens and (max-width: 426px) {
-	#textbox {
-		margin-right: 0px;
-		margin-left: 0px;
-	}
-
-}
 
 .introtitle {
 	text-align: center;

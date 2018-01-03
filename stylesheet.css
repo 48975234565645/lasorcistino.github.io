@@ -46,7 +46,7 @@ body {
 
 /* ---- Text bottom ----*/
 #description p {
-	font-size: 1.3em;
+	font-size: 1.4rem;
 	font-family: 'Julius Sans One', sans-serif;
 	text-shadow: 1.5px 1px black;
 	padding: 0%;
@@ -63,8 +63,6 @@ body {
 }
 /* ------------------------ */
 
-
-
 nav {
 	display: flex;
 	flex-wrap: wrap;
@@ -72,6 +70,7 @@ nav {
 	height: 100%;
 	margin-top: 10%;
 }
+
 
 nav .btnmain {
 	background-color: white;
@@ -279,7 +278,32 @@ nav a {
 	z-index: 3;
 }
 
+@media only screen and (max-width: 1008px) {
+	
+nav {
+	display: block;
+	position: relative;
+	height: 10%;
+	margin-top: 10%;
+}
 
+nav .btnmain {
+	background-color: white;
+	margin-top: 6px;
+	border: 0.2em solid white;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	min-width: 12rem;
+	font-size: 2em;
+	font-family: 'Anton', impact;
+	text-align: center;
+	opacity: 0.75;
+	transition: opacity 0.3s;
+	transition: border 0.5s;
+	padding: 17px;
+}
+}
 
 
 

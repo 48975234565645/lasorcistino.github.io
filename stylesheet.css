@@ -2,7 +2,7 @@
 
 
 
-html, body {
+body {
 
 /* background image */
 	background-color: black;
@@ -22,9 +22,7 @@ html, body {
 
 
 
-#main {
-	
-}
+
 		
 
 
@@ -50,13 +48,18 @@ html, body {
 #description p {
 	font-size: 1.3em;
 	font-family: 'Julius Sans One', sans-serif;
+	text-shadow: 1.5px 1px black;
+	padding: 0%;
+	margin: 0%;
 }
 
 #description {
 	text-align: center;
-	text-shadow: 1.5px 1px black;
+	position: absolute;
 	color: white;
-	margin-top: 6%;
+	width: 99%;
+	padding: 0%;
+	bottom: 1%;
 }
 /* ------------------------ */
 
@@ -146,7 +149,7 @@ nav a {
 }
 
 #pic2 {
-	background-image: url("resources/RECRUITER.jpg");
+	background-image: url("resources/JET.jpg");
 }
 
 #pic3 {
@@ -154,7 +157,7 @@ nav a {
 }
 
 #pic4 {
-	background-image: url("resources/EXAMPLE.jpg");
+	background-image: url("resources/XAEL.jpg");
 }
 
 

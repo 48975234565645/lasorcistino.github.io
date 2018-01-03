@@ -303,7 +303,40 @@ nav .btnmain {
 	transition: border 0.5s;
 	padding: 17px;
 }
+
+nav .btnmain:hover {
+	background-color: white;
+	margin-top: 6px;
+	border: 0.2em solid white;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	min-width: 12rem;
+	font-size: 2em;
+	font-family: 'Anton', impact;
+	text-align: center;
+	opacity: 0.85;
+	transition: opacity 0.3s;
+	transition: border 0.5s;
+	padding: 17px;
 }
 
-
+nav .btnmain:active {
+	background-color: white;
+	margin-top: 6px;
+	border: 0.2em solid white;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	min-width: 12rem;
+	font-size: 2em;
+	font-family: 'Anton', impact;
+	text-align: center;
+	opacity: 0.85;
+	transition: opacity 0.3s;
+	transition: border 0.5s;
+	padding: 17px;
+	top: 1px;
+}
+}
 

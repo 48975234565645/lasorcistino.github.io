@@ -200,10 +200,23 @@ nav a {
 	z-index: 2;
 }
 
+#statusbar {
+	position: relative;
+	z-index: 3;
+	margin-left: -10px;
+	margin-right: -10px;
+}
 
+#status {
+	text-align: center;
+	margin-top: 3.4%;
+	background-color: green;
+	z-index: 3;
+	font-family: 'Abel', 'Oswald';
+}
 
 #whiteoverlay {
-	opacity: 1;
+		opacity: 1;
     background-color: #ccc;
     position: fixed;
     width: 100%;
@@ -224,7 +237,7 @@ nav a {
 	text-align: center;
 	padding: 1%;
 	margin-left: 3%;
-	z-index: 3;
+	z-index: 4;
 	font-family: 'Anton', impact;
 	font-size: 2em;
 	border-radius: 0px 0px 25px 25px;
@@ -276,6 +289,8 @@ nav a {
 	bottom: 0px;
 	z-index: 3;
 }
+
+
 
 @media only screen and (max-width: 1008px) {
 

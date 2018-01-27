@@ -225,7 +225,7 @@ nav a {
   font-size: 1em;
   padding: 10px;
   color: #fff;
-  border: 2px solid #06D85F;
+  border: 2px solid purple;
   border-radius: 20px/50px;
   text-decoration: none;
   cursor: pointer;
@@ -253,10 +253,10 @@ nav a {
 
 .popup {
   margin: 70px auto;
-  padding: 20px;
+  padding: 25px;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 20%;
   position: relative;
   transition: all 5s ease-in-out;
 }

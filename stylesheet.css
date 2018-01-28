@@ -64,7 +64,6 @@ body {
 #description p {
 	font-size: 1.4rem;
 	font-family: 'Julius Sans One', sans-serif;
-	text-shadow: 1.5px 1px white;
 	padding: 0%;
 	margin: 0%;
 }
@@ -242,7 +241,6 @@ nav a {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.8);
-  transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
 	z-index: 7;

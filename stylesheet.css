@@ -210,26 +210,19 @@ nav a {
 }
 
 /* -------TEST------- */
-.box {
-  margin: 0 auto;
-  background: rgba(255,255,255,0.2);
-  padding: auto;
-  border: 2px solid #fff;
-  border-radius: 20px/50px;
-  background-clip: padding-box;
-  text-align: center;
-}
+
+
 
 .button {
   font-size: 1em;
   padding: 10px;
   color: #fff;
   border: 2px solid purple;
-  border-radius: 20px/50px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
+
 .button:hover {
   background: purple	;
 }
@@ -371,10 +364,11 @@ nav a {
 #homebtn {
 	position: fixed;
 	background-color: white;
-	top: 0%;
+	top: -5px;
+	border: solid 5px #ccc;
 	width: auto;
 	text-align: center;
-	padding: 1%;
+	padding: 0.5%;
 	margin-left: 3%;
 	z-index: 4;
 	font-family: 'Anton', impact;
@@ -382,6 +376,16 @@ nav a {
 	border-radius: 0px 0px 25px 25px;
 	color: black;
 	opacity: 1;
+	transition: 1.4s;
+}
+
+#homebtn:hover {
+	color: purple;
+	border: solid 5px purple;
+}
+
+#homebtn:active {
+	top: 50px;
 }
 
 #textbox {

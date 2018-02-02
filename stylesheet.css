@@ -180,17 +180,17 @@ nav a {
 }
 
 .picture {
+	position: relative;
+	display: flex;
 	margin: auto;
 	margin-top: 5%;
 	border-radius: 30px;
-	padding: 4%;
-	height: 28rem;
-	width: 13%;
+	height: 40rem;
+	width: 375px;
 	background-size: cover;
 	background-position: center;
 	z-index: 2;
 }
-
 
 
 #pic1 {
@@ -285,6 +285,8 @@ nav a {
 
 /* ------------------ */
 
+
+
 .descriptioncontainer {
 	display: flex;
 	flex-wrap: wrap;
@@ -294,12 +296,14 @@ nav a {
 }
 
 .descriptionstaff {
+	position: absolute;
+	bottom: -120px;
 	background-color: white;
 	margin: auto;
 	border: 2px solid white;
 	border-radius: 30px;
 	height: 7rem;
-	width: 21%;
+	width: 375px;
 	font-size: 3em;
 	font-family: 'Anton', impact;
 	text-align: center;
@@ -314,7 +318,7 @@ nav a {
 	border: 2px solid white;
 	border-radius: 30px;
 	height: 7rem;
-	width: 21%;
+	width: 375px;
 	font-size: 3.1em;
 	font-family: 'Anton', impact;
 	text-align: center;
@@ -365,7 +369,7 @@ nav a {
 }
 
 #homebtn {
-	position: absolute;
+	position: fixed;
 	background-color: white;
 	top: 0%;
 	width: auto;
@@ -467,4 +471,59 @@ nav .btnmain:active {
 	padding: 17px;
 	top: 1px;
 }
+}
+
+@media only screen and (max-width: 1500px) {
+	.picture {
+		position: relative;
+		display: block;
+		margin: auto;
+		margin-top: 5%;
+		border-radius: 30px;
+		padding: 4%;
+		height: 28rem;
+		width: 375px;
+		background-size: cover;
+		background-position: center;
+		z-index: 2;
+		margin-top: 10rem;
+	}
+
+	.descriptioncontainer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		height: 100%;
+		margin-top: 2%;
+	}
+
+	.descriptionstaff {
+		position: absolute;
+		background-color: white;
+		margin: auto;
+		border: 2px solid white;
+		border-radius: 30px;
+		height: 7rem;
+		width: 375px;
+		font-size: 3em;
+		font-family: 'Anton', impact;
+		text-align: center;
+		opacity: 0.7;
+		z-index: 2;
+		transition: font-size 0.2s;
+	}
+
+	.descriptionstaff:hover {
+		background-color: white;
+		margin: auto;
+		border: 2px solid white;
+		border-radius: 30px;
+		height: 7rem;
+		width: 375px;
+		font-size: 3.1em;
+		font-family: 'Anton', impact;
+		text-align: center;
+		opacity: 0.7;
+		z-index: 2;
+	}
 }

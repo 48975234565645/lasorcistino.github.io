@@ -45,19 +45,35 @@ body {
 /* ---- Footer ---------*/
 
 #footer {
+	/* -----MAINTENANCE------- */
+	background-image: url("resources/maintenance.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* ------------------------ */
 	opacity: 0.7;
 	background-color: #ccc;
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	bottom: 0%;
+	height: 200px;
+	bottom: -165px;
 	left: 0px;
 	z-index: 1;
-	transition: opacity 0.2s;
+	transition: 3.5s
 }
 
 #footer:hover {
 	opacity: 1;
+	bottom: 0px;
+}
+
+#footermessage {
+	background-color: white;
+	position: absolute;
+	font-family: 'Anton';
+	text-align: center;
+	width: 100%;
+	padding: 1.5%;
+	top: 50px;
 }
 
 /* ---- Text bottom ----*/
@@ -72,46 +88,26 @@ body {
 	text-align: center;
 	float: left;
 	width: 100%;
-	position: relative;
+	position: absolute;
 	color: black;
 	padding: 0%;
-	top: 20%;
+	top: 3%;
 }
 /* ------------------------ */
 
 /* -------Signature-------- */
 
 #signature {
+	position: absolute;
+	bottom: -14px;
+	left: 10px;
 	color: black;
 	z-index: 6;
-	position: fixed;
 	font-size: 1.2em;
-	bottom: 1px;
-	bottom: -13px;
 	font-family: 'Great Vibes'
 }
 /* ------------------------ */
 
-#contactbtn {
-	position: absolute;
-	background-color: white;
-	top: -60px;
-	width: auto;
-	text-align: center;
-	padding: 1%;
-	margin-left: 3%;
-	z-index: 4;
-	font-family: 'Anton', impact;
-	font-size: 2em;
-	border-radius: 0px 0px 25px 25px;
-	color: black;
-	opacity: 1;
-	transition: top 1.2s;
-}
-
-#contactbtn:hover {
-	top: -15px;
-}
 
 nav {
 	display: flex;
@@ -209,74 +205,7 @@ nav a {
 	background-image: url("resources/WANAKA.jpg");
 }
 
-/* -------TEST------- */
 
-
-
-.button {
-  font-size: 1em;
-  padding: 10px;
-  color: #fff;
-  border: 2px solid purple;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-}
-
-.button:hover {
-  background: purple	;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.8);
-  visibility: hidden;
-  opacity: 0;
-	z-index: 7;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-  margin: 70px auto;
-  padding: 25px;
-  background: #fff;
-  border-radius: 5px;
-  width: 20%;
-  position: relative;
-  transition: all 5s ease-in-out;
-}
-
-.popup h2 {
-  margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
-}
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-.popup .close:hover {
-  color: #06D85F;
-}
-.popup .content {
-  max-height: 30%;
-  overflow: auto;
-}
-
-/* ------------------ */
 
 
 
@@ -424,7 +353,7 @@ nav {
 	margin-top: 10%;
 }
 
-nav .btnmain {
+.btnmain {
 	background-color: white;
 	margin-top: 6px;
 	border: 0.2em solid white;
@@ -441,7 +370,7 @@ nav .btnmain {
 	padding: 17px;
 }
 
-nav .btnmain:hover {
+.btnmain:hover {
 	background-color: white;
 	margin-top: 6px;
 	border: 0.2em solid white;
@@ -458,7 +387,7 @@ nav .btnmain:hover {
 	padding: 17px;
 }
 
-nav .btnmain:active {
+.btnmain:active {
 	background-color: white;
 	margin-top: 6px;
 	border: 0.2em solid white;

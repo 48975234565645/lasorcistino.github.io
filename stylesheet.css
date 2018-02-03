@@ -15,7 +15,64 @@ body {
 }
 
 
+.mainbox {
+  border-style: solid;
+  border-radius: 9px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 3%;
+  width: 35%;
+  background-color: #000000;
+  opacity: 0.8;
+  margin-top: 0%;
+  min-width: 700px;
+}
 
+#headline {
+  font-size: 3rem;
+  font-family: 'Anton', impact;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+}
+
+#welcometitle {
+	font-size: 2em;
+	font-family: 'Great Vibes';
+}
+
+#corplogomain {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+  opacity: 0.9;
+}
+
+#SSOBOX {
+	text-align: center;
+}
+
+
+
+#SSOButton {
+  width: auto;
+  height: 35px;
+  margin: auto;
+}
+
+
+.mainbox p {
+  font-family: 'Oswald', Impact;
+  color: white;
+}
+
+#rednote {
+	margin-top: 5%;
+	font-size: 0.7em;
+	color: red;
+	font-family: sans-serif;
+}
 
 
 

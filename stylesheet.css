@@ -247,11 +247,11 @@ nav a {
 
 
 #pic1 {
-	background-image: url("resources/MINEICUS.jpg");
+	background-image: url("resources/JYOPPI.jpg");
 }
 
 #pic2 {
-	background-image: url("resources/JYOPPI.jpg");
+	background-image: url("resources/WANAKA.jpg");
 }
 
 #pic3 {
@@ -323,16 +323,34 @@ nav a {
 #guidelines {
 	position: relative;
 	font-family: 'Abel';
-	width: 40%;
+	width: auto;
+	float: left;
 	background-color: grey;
 	border-radius: 15px;
 	padding-bottom: 10px;
+	padding-right: 15px;
 	font-size: 22px;
 	z-index: 3;
 }
 
 #guidelines h1 {
 	font-family: 'Oswald';
+}
+
+#quoteslogi {
+	position: relative;
+	font-family: 'Abel';
+	width: auto;
+	float: right;
+	background-color: grey;
+	border-radius: 15px;
+	margin-top: 30px;
+	margin-right: 5px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 22px;
+	z-index: 3;
 }
 
 

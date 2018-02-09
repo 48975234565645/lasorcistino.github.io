@@ -9,7 +9,7 @@ body {
 	background-image: url("resources/bg2.png");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment:  fixed;
+	background-attachment: fixed;
 	background-size: cover;
 /* ------------------------ */
 }
@@ -314,7 +314,7 @@ nav a {
 
 #status {
 	text-align: center;
-	margin-top: 3.4%;
+	margin-top: 60px;
 	background-color: green;
 	z-index: 3;
 	font-family: 'Abel', 'Oswald';
@@ -393,15 +393,50 @@ nav a {
 }
 
 #textbox {
-	margin-top: 15%;
-	margin-right: 50%;
-	margin-left: 5%;
+	width: 560px;
+	margin-top: 100px;
+	margin-left: 25px;
 	border-radius: 10px;
 	z-index: 2;
 	background-color: white;
 	padding: 2%;
 	position: relative;
 }
+
+#textboxoffer {
+	width: 560px;
+	float: right;
+	margin-right: 120px;
+	border-radius: 10px;
+	z-index: 2;
+	background-color: white;
+	padding: 1%;
+	position: relative;
+	font-family: 'Oswald'
+}
+
+#textboxoffer h1 {
+	font-family: 'Abel'
+}
+
+#textboxdemands {
+	width: 560px;
+	float: right;
+	margin-right: 120px;
+	margin-top: -250px;
+	border-radius: 10px;
+	z-index: 2;
+	background-color: white;
+	padding: 1%;
+	position: relative;
+	font-family: 'Oswald'
+}
+
+#textboxdemands h1 {
+	font-family: 'Abel'
+}
+
+
 
 
 .introtitle {
@@ -424,8 +459,10 @@ nav a {
 nav {
 	display: block;
 	position: relative;
+	text-align: center;
 	height: 10%;
 	margin-top: 10%;
+	background-color: red;
 }
 
 .btnmain {
@@ -445,40 +482,6 @@ nav {
 	padding: 17px;
 }
 
-.btnmain:hover {
-	background-color: white;
-	margin-top: 6px;
-	border: 0.2em solid white;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 10px;
-	min-width: 12rem;
-	font-size: 2em;
-	font-family: 'Anton', impact;
-	text-align: center;
-	opacity: 0.85;
-	transition: opacity 0.3s;
-	transition: border 0.5s;
-	padding: 17px;
-}
-
-.btnmain:active {
-	background-color: white;
-	margin-top: 6px;
-	border: 0.2em solid white;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 10px;
-	min-width: 12rem;
-	font-size: 2em;
-	font-family: 'Anton', impact;
-	text-align: center;
-	opacity: 0.85;
-	transition: opacity 0.3s;
-	transition: border 0.5s;
-	padding: 17px;
-	top: 1px;
-}
 }
 
 @media only screen and (max-width: 1500px) {

@@ -61,6 +61,33 @@ body {
   margin: auto;
 }
 
+/*------AuthPage------*/
+
+#AuthSSOBOX {
+	position: relative;
+	text-align: center;
+	display: block;
+	padding: 5%;
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	top: 250px;
+	border: 3px solid rgba(121, 134, 132, 0.7);
+	border-radius: 25px;
+}
+
+#AuthSSOButton {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 50px;
+    margin: auto;
+}
+/*--------------------*/
+
 
 .mainbox p {
   font-family: 'Oswald', Impact;
@@ -164,6 +191,7 @@ body {
 	font-family: 'Great Vibes'
 }
 /* ------------------------ */
+
 
 
 nav {
@@ -377,7 +405,7 @@ nav a {
 	z-index: 4;
 	font-family: 'Anton', impact;
 	font-size: 2em;
-	border-radius: 0px 0px 25px 25px;
+	border-radius: 0px 0px 15px 15px;
 	color: black;
 	opacity: 1;
 	transition: 1.4s;
@@ -390,6 +418,24 @@ nav a {
 
 #homebtn:active {
 	top: 50px;
+}
+
+#hyperlinks {
+		text-decoration: none;
+		color: purple;
+}
+
+
+#loginbtn {
+	position: fixed;
+	right: 0;
+	top: 0;
+	background-color: white;
+	border: solid white;
+	border-radius: 0px 0px 0px 5px;
+	width: 70px;
+	text-align: center;
+	font-family: 'Oswald';
 }
 
 #textbox {
@@ -447,7 +493,7 @@ nav a {
 
 .introtext {
 	text-align: justify;
-	font-family: 'Anton', impact;
+	font-family: 'Oswald', impact;
 	font-size: 1.1em;
 }
 
